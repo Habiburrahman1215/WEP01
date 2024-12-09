@@ -1,4 +1,147 @@
 body {
-    background-color: cyan;
-    color: brown;
+    font-family: "Poppins", serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#highlight {
+    color: #EC4C7A;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+p {
+    color: dimgray;
+}
+
+.half-width {
+    width: 37%;
+    margin-left: 0%;
+    padding-left: 2%;
+    float: left;
+    margin-top: 7%;
+}
+
+
+p {
+    font-size: large;
+}
+.pos {
+    margin-left: 15%;
+    margin-top: 14%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.top-section {
+    background-image: url("img/header-bg.png");
+    /* border: 1px solid tomato; */
+    height: 1000px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(45deg, #EC5094, #ED4B73);    padding: 10px 40px;
+    border-radius: 6px;
+}
+
+.half-width-2 {
+    width: 37%;
+    margin-left: 0%;
+    padding-left: 2%;
+    float: left;
+    margin-top: 7%;
+}
+
+.bio-img {
+    margin-left: 10%;
+}
+
+.bio-txt {
+    margin-top: 15%;
+}
+
+.bio-txt h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.bio {
+    height: 875px;
+    background-image: url("img/biography-bg.png");
+}
+
+
+.work {
+    height: 800px;
+    background-image: url("img/latest-work-bg.png");
+}
+
+#work-top-margin {
+    margin-top: 15%;
+}
+
+.work h2 {
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.work-img {
+    width: 480px;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.work-img img {
+    width: 100%;
+
+}
+
+#work-margin {
+    margin-left: 10%;
+}
+
+
+.client {
+    height: 1000px;
+    background-image: url("img/footer-bg.png");
+}
+
+#client-center {
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+    text-align: center;
+}
+
+#client-center h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: dimgray;
+}
+
+
+button a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
 }
